@@ -136,7 +136,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Hiragino Sans','Noto Sans JP'
       <button class="btn-retry" onclick="genReview()">🔄 別の文章にする</button>
     </div>
     <span class="cok" id="cok" style="display:block;text-align:center;margin-top:8px">コピーしました！次はGoogleマップに貼り付けてください 😊</span>
-    <a class="google-btn" href="https://search.google.com/local/writereview?placeid=ChIJxxxxxxxxxx" target="_blank" id="google-link">
+    <a class="google-btn" href="https://search.google.com/local/writereview?placeid=https://share.google/6I1OyAA21QCdinnBP" target="_blank" id="google-link">
       🗺️ Googleマップで書く
     </a>
   </div>
@@ -145,7 +145,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Hiragino Sans','Noto Sans JP'
 
 <script>
 // ★ GoogleマップのPlace IDをここに設定してください
-const PLACE_ID = 'ChIJxxxxxxxxxx';
+const PLACE_ID = 'https://share.google/6I1OyAA21QCdinnBP';
 document.getElementById('google-link').href = 'https://search.google.com/local/writereview?placeid=' + PLACE_ID;
 
 let sv = 5, lastRv = '';
